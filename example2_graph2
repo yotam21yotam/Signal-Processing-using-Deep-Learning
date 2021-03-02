@@ -1,0 +1,10 @@
+digraph G {
+"Node A" [fillcolor=red, style=filled];
+"Node B" [fillcolor=green, style=filled];
+"Node C" [fillcolor="#0000ff", style=filled];
+"Node D" [fillcolor="#976856", style=filled];
+"Node A" -> "Node B";
+"Node B" -> "Node C";
+"Node C" -> "Node D";
+"Node D" -> "Node A"  [color=blue, fontsize="10.0", label="and back we go again", labelfontcolor="#009933"];
+}
